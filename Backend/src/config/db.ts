@@ -16,3 +16,14 @@ const connecToDatabase = async () => {
 	}
 }
 export default connecToDatabase;
+
+NODE_ENV= develoment
+#frontend urlencoded
+APP_ORIGIN=http://localhost:3000
+#example: mongodb://localhost:22000/{DB_NAME}
+MONGO_URI= mongodb+srv://hugopalominogalindo9742:fO63CXJxkmz7OFgZ@cluster0.7yu3v.mongodb.net/
+JWT_SECRET= codeSecretKey
+JWT_REFRESH= codeSecretKeyRefresh
+# a verified sender email
+EMAIL_SENDER= a
+RESEND_API_KEY= a
